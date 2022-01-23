@@ -1,0 +1,14 @@
+{
+  "name": "functional-programming-in-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andrewchaa/functional-programming-in-javascript.git",
+  "author": "Andrew Youngho Chaa <andrew.yh.chaa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
