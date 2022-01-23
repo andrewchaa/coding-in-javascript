@@ -17,3 +17,9 @@ test('pass multiplier as operation', () => {
 
   expect(applyOperation(2, 3, multiplier)).toBe(6)
 })
+
+test('curried add', () => {
+  const add = (a) => (b) => a +b
+
+  expect(add(5)(4)).toBe(9)
+})
